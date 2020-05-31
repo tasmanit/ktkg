@@ -1,0 +1,41 @@
+$('#top-slider').owlCarousel({
+    loop:true,
+    nav:true,
+    items:1,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true
+});
+$('#news').owlCarousel({
+    items:1,
+    margin:15,
+    nav:true,
+});
+$('#stock').owlCarousel({
+    items:1,
+    margin:15,
+    nav:true,
+});
+$('#alerts').owlCarousel({
+    items:1,
+    margin:15,
+    nav:true,
+});
+$('#tarif').owlCarousel({
+    items:4,
+    margin:15,
+    nav:true,
+});
+$('#tariftv').owlCarousel({
+    items:4,
+    margin:15,
+    nav:true,
+});
+$('#anons').owlCarousel({
+    loop:true,
+    nav:true,
+    items:1,
+    autoplay:true,
+    autoplayTimeout:10000,
+    autoplayHoverPause:true
+});
